@@ -1,0 +1,15 @@
+{
+  "name": "metabiz-mcrm",
+  "version": "1.0.0",
+  "description": "Connect Gemini CLI to metabiz mCRM for authorized member insights, segmentation and reviewed customer engagement. https://metabiz.ai",
+  "mcpServers": {
+    "metabiz-mcrm": {
+      "httpUrl": "https://mcrm-mcp.metabiz.tw/mcp",
+      "oauth": {
+        "enabled": true,
+        "redirectUri": "http://localhost:18539/oauth/callback",
+        "scopes": ["mcrm"]
+      }
+    }
+  }
+}
